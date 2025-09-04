@@ -48,9 +48,9 @@ Ma minimalistyczny interfejs w stylu Apple, działa na każdym urządzeniu i jes
 
 ## 🔒 Bezpieczeństwo
 
-	•	Tabela z banami ma **Row Level Security (RLS)**.
-	•	Panel admina jest ukryty pod trudnym do odgadnięcia adresem.
-	•	Adresy IP są zapisywane wyłącznie w celach moderacji i bezpieczeństwa.
+* Tabela z banami ma **Row Level Security (RLS)**.
+* Panel admina jest ukryty pod trudnym do odgadnięcia adresem.
+* Adresy IP są zapisywane wyłącznie w celach moderacji i bezpieczeństwa.
 
 
 
