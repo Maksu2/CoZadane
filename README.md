@@ -30,16 +30,32 @@ Ma minimalistyczny interfejs w stylu Apple, działa na każdym urządzeniu i jes
    ```bash
    git clone https://github.com/Maksu2/CoZadane.git
    cd CoZadane
-```
+   
 2.	**Zainstaluj zależności:**
     ```bash
     npm install
-    ```
-3. 	3.	**Utwórz plik** `.env.local` **w katalogu głównym projektu:**
+    
+3. **Utwórz plik** `.env.local` **w katalogu głównym projektu:**
     ```bash
     NEXT_PUBLIC_SUPABASE_URL=<adres URL projektu Supabase>
     NEXT_PUBLIC_SUPABASE_ANON_KEY=<anonimowy klucz Supabase>
-    ```
+4. **Uruchom serwer developerski:**
+   ```bash
+   npm run dev
+5.	**Otwórz** `http://localhost:3000`, **żeby zobaczyć stronę**.
+
+---
+
+## 🔒 Bezpieczeństwo
+
+	•	Tabela z banami ma **Row Level Security (RLS)**.
+	•	Panel admina jest ukryty pod trudnym do odgadnięcia adresem.
+	•	Adresy IP są zapisywane wyłącznie w celach moderacji i bezpieczeństwa.
+
+
+
+
+   
 
 
 
