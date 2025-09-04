@@ -36,7 +36,7 @@ Ma minimalistyczny interfejs w stylu Apple, działa na każdym urządzeniu i jes
     npm install
     
 3. **Utwórz plik** `.env.local` **w katalogu głównym projektu:**
-    ```bash
+    ```env
     NEXT_PUBLIC_SUPABASE_URL=<adres URL projektu Supabase>
     NEXT_PUBLIC_SUPABASE_ANON_KEY=<anonimowy klucz Supabase>
 4. **Uruchom serwer developerski:**
