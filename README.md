@@ -20,7 +20,6 @@ Ma minimalistyczny interfejs w stylu Apple, działa na każdym urządzeniu i jes
 - [TypeScript](https://www.typescriptlang.org/) – typowanie kodu  
 - [Supabase](https://supabase.com/) – baza danych i backend  
 - [styled-components](https://styled-components.com/) – stylowanie aplikacji  
-- [Vercel](https://vercel.com/) – hosting i CI/CD  
 
 ---
 
