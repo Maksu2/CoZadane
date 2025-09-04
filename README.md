@@ -1,41 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📚 CoZadane – Prosta tablica zadań domowych
 
-## Getting Started
+**CoZadane** to lekka i szybka aplikacja webowa do organizacji zadań domowych.  
+Ma minimalistyczny interfejs w stylu Apple, działa na każdym urządzeniu i jest stworzona specjalnie dla uczniów.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Funkcje
+- 📝 **Dodawanie zadań domowych** – wpisz przedmiot, opis i datę oddania.  
+- 🌓 **Tryb ciemny/jasny** – zapamiętuje ustawienia użytkownika.  
+- 📱 **Responsywny design** – wygodny na telefonie i komputerze.  
+- 🔐 **Panel administratora** – podgląd i usuwanie zadań.  
+- 🚫 **Banowanie IP** – blokada dostępu dla wybranych adresów.  
+- ⚡ **Supabase backend** – prosta baza danych i API bez własnego serwera.  
+
+---
+
+## 🛠️ Stos technologiczny
+- [Next.js 15](https://nextjs.org/) – framework Reacta z API Routes  
+- [TypeScript](https://www.typescriptlang.org/) – typowanie kodu  
+- [Supabase](https://supabase.com/) – baza danych i backend  
+- [styled-components](https://styled-components.com/) – stylowanie aplikacji  
+- [Vercel](https://vercel.com/) – hosting i CI/CD  
+
+---
+
+## 🚀 Uruchamianie lokalnie
+
+1. **Sklonuj repozytorium:**
+   ```bash
+   git clone https://github.com/Maksu2/CoZadane.git
+   cd CoZadane
 ```
+2.	**Zainstaluj zależności:**
+    ```bash
+    npm install
+    ```
+3. 	3.	**Utwórz plik** `.env.local` **w katalogu głównym projektu:**
+    ```bash
+    NEXT_PUBLIC_SUPABASE_URL=<adres URL projektu Supabase>
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=<anonimowy klucz Supabase>
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-# CoZadane
